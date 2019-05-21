@@ -1,4 +1,4 @@
-FROM maven:latest
+FROM httpd:latest
 COPY . /var/www/html
 EXPOSE 80
 ENTRYPOINT ["/sbin/httpd"]
